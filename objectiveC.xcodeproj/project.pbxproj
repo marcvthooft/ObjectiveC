@@ -10,6 +10,7 @@
 		6DA36908188C453200301504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA36907188C453200301504 /* Foundation.framework */; };
 		6DA3690B188C453200301504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3690A188C453200301504 /* main.m */; };
 		6DA3690F188C453200301504 /* objectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6DA3690E188C453200301504 /* objectiveC.1 */; };
+		6DA36917188C45C300301504 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA36916188C45C300301504 /* XYZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		6DA3690A188C453200301504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DA3690D188C453200301504 /* objectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		6DA3690E188C453200301504 /* objectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = objectiveC.1; sourceTree = "<group>"; };
+		6DA36915188C45C300301504 /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		6DA36916188C45C300301504 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		6DA368FB188C453200301504 = {
 			isa = PBXGroup;
 			children = (
+				6DA36915188C45C300301504 /* XYZPerson.h */,
+				6DA36916188C45C300301504 /* XYZPerson.m */,
 				6DA36909188C453200301504 /* objectiveC */,
 				6DA36906188C453200301504 /* Frameworks */,
 				6DA36905188C453200301504 /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA3690B188C453200301504 /* main.m in Sources */,
+				6DA36917188C45C300301504 /* XYZPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
